@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://previews.dropbox.com/p/thumb/AAfpwHfCfdS5FanxArh4o-weNMQz3jfeIkzTUE06Y5gd5AdtiskZ_Uuai0yYN_UC6DLyO9rCuc3vKV_Np_496Zgnm4j6NMZ0W7X1R0Q0aIwVBh_GfJ73rcsK4ISn9bLERkjqoC0Hyf4uxBUak0aOO-6Q97GlONadvYgCs3TFBEcKROT2rzPhqBTx2MYSaddxoRTa9kZdG2X_Zxcca-G3ad2g-IVq6XI3QLip26JmrD4K7Gn-ltr6oxNF40crRN_BoVpFobk2b3MY73aXl9o-1KWRT4ZPHpoSXq5Q5exKO8eupBHbocio8brkyQlP13enGbKOTW4tFw1K67FD8DmcR5CR/p.png?fv_content=true&size_mode=5");
+    background-repeat: no-repeat;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 25px;
+    padding: 2px;
+    font-size: 16px;
+    font-family: Futura, sans-serif;
+    color: black;
+    font-weight: bold;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+path {
+    fill: none;
+    stroke-width: 7;
+    cursor: pointer;
+}
+
+circle {
+    fill: white;
+    stroke: #050E1C;
+    stroke-width: 7;
+    cursor: pointer;
+}
+
+text {
+    font-size: 23px;
+    font-family: Futura, sans-serif;
+    font-weight: bold;
+    fill: white;
+    stroke: #050E1C;
+    pointer-events: none;
+    /*text-shadow: 2px 0 0 #fff, -1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
+}
