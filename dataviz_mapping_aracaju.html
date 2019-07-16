@@ -115,8 +115,6 @@
       /* 
         MULTIPLE LINKS BETWEEN NODES IN FORCE LAYOUT
         Lodash.js lib.
-        code snippet based on  http://bl.ocks.org/thomasdobber/9b78824119136778052f64a967c070e0 
-        Thanks to Thomas Dobber 
       */
       _.each(LINKS, function (link) {
         // links with: same target + source or source + target 
@@ -216,9 +214,8 @@
           return d.name;
         });
 
-      /* GLOWING EFFECT
-        thanks to: https://www.visualcinnamon.com/2016/06/glow-filter-d3-visualization.html  
-      */
+      // GLOWING EFFECT
+
       //Container for the gradients
       var defs = svgContainer.append("defs");
 
@@ -228,12 +225,14 @@
       filter.append("feGaussianBlur")
         .attr("stdDeviation", "3.5")
         .attr("result", "coloredBlur");
-
+      
       var feMerge = filter.append("feMerge");
       feMerge.append("feMergeNode")
         .attr("in", "coloredBlur");
       feMerge.append("feMergeNode")
         .attr("in", "SourceGraphic");
+      
+      // ==============
 
       //Glows bus route when hovered on 
       function turnOnGlow(d, i) {
@@ -264,7 +263,6 @@
       }
 
       // ARC CALCULATION (Between Paths)
-      // some more info: http://stackoverflow.com/questions/11368339/drawing-multiple-edges-between-two-nodes-with-d3
       function linkArc(d) {
         var dx = (d.target.x - d.source.x),
           dy = (d.target.y - d.source.y),
@@ -356,6 +354,15 @@
         }
       }
     }
+    /*
+     References for some code snippets based on:
+      Glowing effect:
+      - https://www.visualcinnamon.com/2016/06/glow-filter-d3-visualization.html  
+      Multiple Links between nodes in force layout:
+      - http://bl.ocks.org/thomasdobber/9b78824119136778052f64a967c070e0 - thanks to Thomas Dobber
+      Arc Calculation
+      - https://stackoverflow.com/questions/11368339/drawing-multiple-edges-between-two-nodes-with-d3
+    */
   </script>
 
 </body>
