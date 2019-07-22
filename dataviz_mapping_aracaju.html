@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./css/mapping-aju.css" type="text/css">
-</head>
-
-<body>
   <script src="https://d3js.org/d3.v3.min.js"></script>
   <script src="https://d3js.org/queue.v1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
   <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+</head>
+
+<body>
   <script type="text/javascript">
     //====================  JSON  DATA ==================================================
 
@@ -191,11 +191,9 @@
         .style("stroke", function (d) {
           return d.color;
         })
-        // .on("mouseover", showTooltip)
-        .on("mouseover", turnOnGlow)
-        // .on("mouseout", hideTooltip)
-        .on("mouseout", turnOffGlow)
-        .on("click", highlightRoute);
+        .on("mouseover", peekRouteOn)
+        .on("mouseout", peekRouteOff)
+        .on("click", showRoute);
 
       //Circles (Station Nodes)
       var circle = svgContainer.append("g").selectAll("circle")
@@ -203,7 +201,7 @@
         .enter().append("circle")
         .attr("r", 10)
         .call(drag)
-        .on('dblclick', highlightStations);
+        .on('dblclick', showNeighborStations);
 
       var text = svgContainer.append("g").selectAll("text")
         .data(force.nodes())
@@ -235,15 +233,31 @@
       // ==============
 
       //Glows bus route when hovered on 
-      function turnOnGlow(d, i) {
+      function peekRouteOn(d, i) {
         var coords = d3.mouse(this);
         svgContainer.selectAll(".busroute-" + this.id)
           .style("filter", "url(#glow)");
+        
+			  //Show Tooltip show tooltip with bus route info
+			  tooltip.transition()
+				  .duration(200)
+				  .style("opacity", .9);
+
+			  var link = LINKS.find(i => i.busRouteId === this.id);
+			  tooltip.html(this.id + " " + link.busRouteName)
+				  .style("left", (coords[0]) + "px")
+				  .style("top", (coords[1] - 28) + "px");
+        
       }
 
-      function turnOffGlow() {
+      function peekRouteOff() {
         svgContainer.selectAll(".busroute-path")
           .style("filter", "none");
+
+        //hide tooltip
+			  tooltip.transition()
+				.duration(300)
+				.style("opacity", 0);
       }
 
       // TICK Interaction
@@ -278,30 +292,10 @@
           .x + "," + d.target.y;
       }
 
-      // TOOL TIP - BUS ROUTE
-      function showTooltip(d, i) {
-        var coords = d3.mouse(this);
-        tooltip.transition()
-          .duration(200)
-          .style("opacity", .9);
-
-        //show tooltip with bus route info
-        var link = LINKS.find(i => i.busRouteId === this.id);
-        tooltip.html(this.id + " " + link.busRouteName)
-          .style("left", (coords[0]) + "px")
-          .style("top", (coords[1] - 28) + "px");
-      }
-
-      function hideTooltip(d, i) {
-        tooltip.transition()
-          .duration(300)
-          .style("opacity", 0);
-      }
-
       // HIGHTLIGHT ENTIRE BUS ROUTE    
       var toggleRoute = 0; //Toggle stores whether the highlighting is on
 
-      function highlightRoute(d, i) {
+      function showRoute(d, i) {
         if (toggleRoute == 0) {
           svgContainer.selectAll(".busroute-path")
             .style("opacity", function (d) {
@@ -336,7 +330,7 @@
         return linkedByIndex[a.index + "," + b.index];
       }
 
-      function highlightStations() {
+      function showNeighborStations() {
         if (toggle == 0) {
           //Reduce the opacity of all but the neighbouring nodes
           d = d3.select(this).node().__data__;
