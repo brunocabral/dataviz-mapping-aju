@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./css/mapping-aju.css" type="text/css">
-  <script src="https://d3js.org/d3.v3.min.js"></script>
-  <script src="https://d3js.org/queue.v1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
-  <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 </head>
-
 <body>
+  
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://d3js.org/queue.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
+    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
   <script type="text/javascript">
     //====================  JSON  DATA ==================================================
 
@@ -247,7 +247,6 @@
 			  tooltip.html(this.id + " " + link.busRouteName)
 				  .style("left", (coords[0]) + "px")
 				  .style("top", (coords[1] - 28) + "px");
-        
       }
 
       function peekRouteOff() {
@@ -349,7 +348,7 @@
       }
     }
     /*
-     References for some code snippets based on:
+     Thanks credits to:
       Glowing effect:
       - https://www.visualcinnamon.com/2016/06/glow-filter-d3-visualization.html  
       Multiple Links between nodes in force layout:
