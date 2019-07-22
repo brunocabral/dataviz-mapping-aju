@@ -5,12 +5,12 @@
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./css/mapping-aju.css" type="text/css">
 </head>
+
 <body>
-  
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://d3js.org/queue.v1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
-    <script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="https://d3js.org/queue.v1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.5.0/lodash.min.js"></script>
   <script type="text/javascript">
     //====================  JSON  DATA ==================================================
 
@@ -171,7 +171,7 @@
       // RENDER - SVG
       var svgContainer = d3.select("body").append("svg")
         .attr("width", width)
-        .attr("height", height)
+        .attr("height", height);
 
       // TOOLTIP - Bus Route info 
       var tooltip = d3.select("body").append("div")
@@ -223,13 +223,13 @@
       filter.append("feGaussianBlur")
         .attr("stdDeviation", "3.5")
         .attr("result", "coloredBlur");
-      
+
       var feMerge = filter.append("feMerge");
       feMerge.append("feMergeNode")
         .attr("in", "coloredBlur");
       feMerge.append("feMergeNode")
         .attr("in", "SourceGraphic");
-      
+
       // ==============
 
       //Glows bus route when hovered on 
@@ -237,16 +237,16 @@
         var coords = d3.mouse(this);
         svgContainer.selectAll(".busroute-" + this.id)
           .style("filter", "url(#glow)");
-        
-			  //Show Tooltip show tooltip with bus route info
-			  tooltip.transition()
-				  .duration(200)
-				  .style("opacity", .9);
 
-			  var link = LINKS.find(i => i.busRouteId === this.id);
-			  tooltip.html(this.id + " " + link.busRouteName)
-				  .style("left", (coords[0]) + "px")
-				  .style("top", (coords[1] - 28) + "px");
+        //Show Tooltip show tooltip with bus route info
+        tooltip.transition()
+          .duration(200)
+          .style("opacity", .9);
+
+        var link = LINKS.find(i => i.busRouteId === this.id);
+        tooltip.html(this.id + " " + link.busRouteName)
+          .style("left", (coords[0]) + "px")
+          .style("top", (coords[1] - 28) + "px");
       }
 
       function peekRouteOff() {
@@ -254,9 +254,9 @@
           .style("filter", "none");
 
         //hide tooltip
-			  tooltip.transition()
-				.duration(300)
-				.style("opacity", 0);
+        tooltip.transition()
+          .duration(300)
+          .style("opacity", 0);
       }
 
       // TICK Interaction
@@ -291,10 +291,13 @@
           .x + "," + d.target.y;
       }
 
-      // HIGHTLIGHT ENTIRE BUS ROUTE    
+      // ##################
       var toggleRoute = 0; //Toggle stores whether the highlighting is on
-
       function showRoute(d, i) {
+
+        d3.selectAll(".details").remove(); //reset
+
+        // HIGHTLIGHT ENTIRE BUS ROUTE PATH  
         if (toggleRoute == 0) {
           svgContainer.selectAll(".busroute-path")
             .style("opacity", function (d) {
@@ -311,42 +314,137 @@
           path.style("opacity", 1);
           toggleRoute = 0;
         }
-      }
 
-      //HIGHLIGHT LINKED NODES (Stations)
-      var toggle = 0; //Toggle stores whether the highlighting is on
-      var linkedByIndex = {}; //Create an array logging what is connected to what
-      for (i = 0; i < force.nodes.length; i++) {
-        linkedByIndex[i + "," + i] = 1;
-      };
+        // SHOWS A "POPUP" WITH MORE DETAILED INFO OF CLICKED BUS ROUTE.  
+        var links = LINKS.filter(i => i.busRouteId === this.id); //gets all sections of the bus line.
 
-      LINKS.forEach(function (d) {
-        linkedByIndex[d.source.index + "," + d.target.index] = 1;
-      });
-
-      //Checks if a pair are neighbours
-      function neighboring(a, b) {
-        return linkedByIndex[a.index + "," + b.index];
-      }
-
-      function showNeighborStations() {
-        if (toggle == 0) {
-          //Reduce the opacity of all but the neighbouring nodes
-          d = d3.select(this).node().__data__;
-
-          path.style("opacity", function (o) {
-            return d.index == o.source.index | d.index == o.target.index ? 1 : 0.1;
-          });
-          //Reduce the op
-          toggle = 1;
-        } else {
-          //Put them back to opacity=1
-          circle.style("opacity", 1);
-          path.style("opacity", 1);
-          toggle = 0;
+        var stationsVisitedSeq = []; //stores the original sequence of stations visited
+        //bus route = sum of sections (Station A-> Station B, Station B -> C, c->d...)
+        for (let i = 0; i < links.length; i++) {
+          //adds if stations is not in sequence yet 
+          if (!stationsVisitedSeq.includes(links[i].source)) {
+            stationsVisitedSeq.push(links[i].source);
+          }
+          //adds if stations is not in sequence yet 
+          if (!stationsVisitedSeq.includes(links[i].target)) {
+            stationsVisitedSeq.push(links[i].target);
+          }
         }
+
+        //Draws the "popup"
+
+        //details popup settings   	
+        var distanceBetweenNodes = 30; //whitespace
+        var marginX = 20;
+        var marginY = 50;
+        var detailsX = width - 250;
+        var detailsY = 30;
+        var detailsWidth = 220;
+        var detailsHeight = (stationsVisitedSeq.length * distanceBetweenNodes) + (marginY * 2) - distanceBetweenNodes;
+        var cxPos = detailsX + marginX; //circles pos x
+        var cyPos = detailsY + marginY; //circles pos y
+
+        //route details "popup" background
+        svgContainer.append("rect")
+          .attr("id", "details")
+          .attr("class", "details")
+          .attr("width", detailsWidth)
+          .attr("height", detailsHeight)
+          .attr("x", detailsX)
+          .attr("y", detailsY)
+          .attr("rx", 5)
+          .attr("ry", 5)
+          .on("click", closeRoutePopup);
+
+      //route details "popup" path
+      var pathPos = [
+        [detailsX + marginX, detailsY + marginY - 20],
+        [detailsX + marginX, detailsY + detailsHeight - marginY + 20]
+      ];
+      var lineGenerator = d3.svg.line();
+      var pathString = lineGenerator(pathPos);
+
+      let color = this.style.stroke; //route path color
+
+      svgContainer.append("path")
+        .attr("id", "path-details")
+        .attr("class", "details")
+        .attr('d', pathString)
+        .attr("stroke", function (d) {
+          return color; //change color according to route path
+        });
+
+      //route details "popup" title
+      svgContainer.append("text")
+        .attr("id", "title-details")
+        .attr("class", "details")
+        .attr("x", detailsX)
+        .attr("y", detailsY - 5)
+        .text(function () {
+          return links[0].busRouteName;
+        });
+
+      //popup nodes
+      stationsVisitedSeq.forEach(function (d) {
+        //add station node to popup
+        svgContainer.append("circle")
+          .attr("cx", cxPos)
+          .attr("cy", cyPos)
+          .attr("r", 6)
+          .attr("class", "details circle-details");
+
+        //add station name
+        svgContainer.append("text")
+          .attr("x", cxPos + marginX)
+          .attr("y", cyPos + 5)
+          .text(function () {
+            return d.name;
+          })
+          .attr("class", "details text-details");
+
+        //increment next circle Y axis position
+        cyPos = cyPos + distanceBetweenNodes;
+      })
+    }
+
+    function closeRoutePopup() {
+      d3.selectAll(".details").remove(); //reset
+    }
+
+    //HIGHLIGHT LINKED NODES (Stations)
+    var toggle = 0; //Toggle stores whether the highlighting is on
+    var linkedByIndex = {}; //Create an array logging what is connected to what
+    for (i = 0; i < force.nodes.length; i++) {
+      linkedByIndex[i + "," + i] = 1;
+    };
+
+    LINKS.forEach(function (d) {
+      linkedByIndex[d.source.index + "," + d.target.index] = 1;
+    });
+
+    //Checks if a pair are neighbours
+    function neighboring(a, b) {
+      return linkedByIndex[a.index + "," + b.index];
+    }
+
+    function showNeighborStations() {
+      if (toggle == 0) {
+        //Reduce the opacity of all but the neighbouring nodes
+        d = d3.select(this).node().__data__;
+
+        path.style("opacity", function (o) {
+          return d.index == o.source.index | d.index == o.target.index ? 1 : 0.1;
+        });
+        //Reduce the op
+        toggle = 1;
+      } else {
+        //Put them back to opacity=1
+        circle.style("opacity", 1);
+        path.style("opacity", 1);
+        toggle = 0;
       }
     }
+    } //end script
     /*
      Thanks credits to:
       Glowing effect:

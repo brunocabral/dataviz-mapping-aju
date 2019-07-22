@@ -6,8 +6,8 @@ The public bus transportation network has a great importance in the routine of t
 
 Future updates:
 - Show bus lines that visit less than 2 stations (no connections)
-- Show more info about a bus line selected
-- Show a summary visualization of the sequencial station connections when a bus line is selected, in a format similar to [this](https://image.winudf.com/v2/image/YmUuc3RpYl9zY3JlZW5zaG90c18xXzVlODFhMzk/screen-1.jpg?fakeurl=1&type=.jpg) 
+- Show more info about a bus line selected (url to original pdf)
+~- Show a summary visualization of the sequencial station connections when a bus line is selected, in a format similar to [this](https://image.winudf.com/v2/image/YmUuc3RpYl9zY3JlZW5zaG90c18xXzVlODFhMzk/screen-1.jpg?fakeurl=1&type=.jpg)~ (done) 
 - Allow to choose between bus line directions (invert station sequence)
 
 
