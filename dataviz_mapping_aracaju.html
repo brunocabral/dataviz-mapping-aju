@@ -474,39 +474,8 @@
           toggle = 0;
         }
       }
-
-      //dropdown change event: show route selected
-      function dropdownChange() {
-        var selectedId = d3.select(this).property("value"); //dropdown option selected
-        var dropElem = {}; //temp
-        dropElem.id = selectedId;
-        dropElem.style = "stroke: red;";
-        showRoute(dropElem);
-      }
-
-      var dropdown = d3.select("body").insert("select", "svgContainer")
-        .on("change", dropdownChange);
-
-      dropdown.selectAll("option")
-        .data(busRouteData)
-        .enter().append("option")
-        .attr("value", function (d) {
-          return d.numeracao; //route id
-        })
-        .text(function (d) {
-          return d.numeracao + " - " + d.nome;
-        });
-
+     
     } //end script
-    /*
-     Thanks credits to:
-      Glowing effect:
-      - https://www.visualcinnamon.com/2016/06/glow-filter-d3-visualization.html  
-      Multiple Links between nodes in force layout:
-      - http://bl.ocks.org/thomasdobber/9b78824119136778052f64a967c070e0 - thanks to Thomas Dobber
-      Arc Calculation
-      - https://stackoverflow.com/questions/11368339/drawing-multiple-edges-between-two-nodes-with-d3
-    */
   </script>
 
 </body>
