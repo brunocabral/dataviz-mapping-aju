@@ -3,7 +3,7 @@
 The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju-SE, Brazil. However, the mobility inside the network is cloudy for those whom has no knowledge about the bus lines' routes.
 
 <a name="tryit"></a>
-### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4)
+### Try it now [here](http://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/4a6aecf21883560efd821eba66c295e8897ccef6/)
 
 ## Folder
 
