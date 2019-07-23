@@ -354,96 +354,109 @@
           .attr("y", detailsY)
           .attr("rx", 5)
           .attr("ry", 5)
-          .on("click", closeRoutePopup);
+          .on("click", closeRoutePopup)
+          .attr("opacity", 0)
+          .transition()    //animation effect
+          .duration(1500)
+          .attr("opacity", .2);
 
-      //route details "popup" path
-      var pathPos = [
-        [detailsX + marginX, detailsY + marginY - 20],
-        [detailsX + marginX, detailsY + detailsHeight - marginY + 20]
-      ];
-      var lineGenerator = d3.svg.line();
-      var pathString = lineGenerator(pathPos);
+        //route details "popup" path
+        var pathPos = [
+          [detailsX + marginX, detailsY + marginY - 20],
+          [detailsX + marginX, detailsY + detailsHeight - marginY + 20]
+        ];
+        var lineGenerator = d3.svg.line();
+        var pathString = lineGenerator(pathPos);
 
-      let color = this.style.stroke; //route path color
+        let color = this.style.stroke; //route path color
 
-      svgContainer.append("path")
-        .attr("id", "path-details")
-        .attr("class", "details")
-        .attr('d', pathString)
-        .attr("stroke", function (d) {
-          return color; //change color according to route path
-        });
-
-      //route details "popup" title
-      svgContainer.append("text")
-        .attr("id", "title-details")
-        .attr("class", "details")
-        .attr("x", detailsX)
-        .attr("y", detailsY - 5)
-        .text(function () {
-          return links[0].busRouteName;
-        });
-
-      //popup nodes
-      stationsVisitedSeq.forEach(function (d) {
-        //add station node to popup
-        svgContainer.append("circle")
-          .attr("cx", cxPos)
-          .attr("cy", cyPos)
-          .attr("r", 6)
-          .attr("class", "details circle-details");
-
-        //add station name
-        svgContainer.append("text")
-          .attr("x", cxPos + marginX)
-          .attr("y", cyPos + 5)
-          .text(function () {
-            return d.name;
+        svgContainer.append("path")
+          .attr("id", "path-details")
+          .attr("class", "details")
+          .attr('d', pathString)
+          .attr("stroke", function (d) {
+            return color; //change color according to route path
           })
-          .attr("class", "details text-details");
+          .attr("stroke-dasharray", '200 200')   //animation effect
+          .attr("stroke-dashoffset", 200)
+          .transition()
+          .duration(1500)
+          .attr('stroke-dashoffset', 0);
 
-        //increment next circle Y axis position
-        cyPos = cyPos + distanceBetweenNodes;
-      })
-    }
+        //route details "popup" title
+        svgContainer.append("text")
+          .attr("id", "title-details")
+          .attr("class", "details")
+          .attr("x", detailsX)
+          .attr("y", detailsY - 5)
+          .text(function () {
+            return links[0].busRouteName;
+          });
 
-    function closeRoutePopup() {
-      d3.selectAll(".details").remove(); //reset
-    }
+        //popup nodes
+        stationsVisitedSeq.forEach(function (d) {
+          //add station node to popup
+          svgContainer.append("circle")
+            .attr("cx", cxPos)
+            .attr("cy", cyPos)
+            .attr("r", 6)
+            .attr("class", "details circle-details");
 
-    //HIGHLIGHT LINKED NODES (Stations)
-    var toggle = 0; //Toggle stores whether the highlighting is on
-    var linkedByIndex = {}; //Create an array logging what is connected to what
-    for (i = 0; i < force.nodes.length; i++) {
-      linkedByIndex[i + "," + i] = 1;
-    };
+          //add station name
+          svgContainer.append("text")
+            .attr("x", cxPos + marginX)
+            .attr("y", cyPos + 5)
+            .text(function () {
+              return d.name;
+            })
+            .attr("class", "details text-details");
 
-    LINKS.forEach(function (d) {
-      linkedByIndex[d.source.index + "," + d.target.index] = 1;
-    });
-
-    //Checks if a pair are neighbours
-    function neighboring(a, b) {
-      return linkedByIndex[a.index + "," + b.index];
-    }
-
-    function showNeighborStations() {
-      if (toggle == 0) {
-        //Reduce the opacity of all but the neighbouring nodes
-        d = d3.select(this).node().__data__;
-
-        path.style("opacity", function (o) {
-          return d.index == o.source.index | d.index == o.target.index ? 1 : 0.1;
-        });
-        //Reduce the op
-        toggle = 1;
-      } else {
-        //Put them back to opacity=1
-        circle.style("opacity", 1);
-        path.style("opacity", 1);
-        toggle = 0;
+          //increment next circle Y axis position
+          cyPos = cyPos + distanceBetweenNodes;
+        })
       }
-    }
+
+      function closeRoutePopup() {
+        var details = d3.selectAll(".details")
+          .transition()    //closing animation effect
+          .duration(400)
+          .attr("opacity", 0)
+        details.remove(); //reset
+      }
+
+      //HIGHLIGHT LINKED NODES (Stations)
+      var toggle = 0; //Toggle stores whether the highlighting is on
+      var linkedByIndex = {}; //Create an array logging what is connected to what
+      for (i = 0; i < force.nodes.length; i++) {
+        linkedByIndex[i + "," + i] = 1;
+      };
+
+      LINKS.forEach(function (d) {
+        linkedByIndex[d.source.index + "," + d.target.index] = 1;
+      });
+
+      //Checks if a pair are neighbours
+      function neighboring(a, b) {
+        return linkedByIndex[a.index + "," + b.index];
+      }
+
+      function showNeighborStations() {
+        if (toggle == 0) {
+          //Reduce the opacity of all but the neighbouring nodes
+          d = d3.select(this).node().__data__;
+
+          path.style("opacity", function (o) {
+            return d.index == o.source.index | d.index == o.target.index ? 1 : 0.1;
+          });
+          //Reduce the op
+          toggle = 1;
+        } else {
+          //Put them back to opacity=1
+          circle.style("opacity", 1);
+          path.style("opacity", 1);
+          toggle = 0;
+        }
+      }
     } //end script
     /*
      Thanks credits to:

@@ -59,7 +59,7 @@ text {
 
 #details {
     fill: lightgrey;
-    opacity: .2;
+    /* opacity: .2; */
 }
 
 #path-details {
