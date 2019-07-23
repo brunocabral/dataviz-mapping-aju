@@ -193,7 +193,9 @@
         })
         .on("mouseover", peekRouteOn)
         .on("mouseout", peekRouteOff)
-        .on("click", showRoute);
+        .on("click", function (){
+          return showRoute(this); 
+        });
 
       //Circles (Station Nodes)
       var circle = svgContainer.append("g").selectAll("circle")
@@ -304,14 +306,14 @@
 
       var toggleRoute = 0; //Toggle stores whether the highlight mode is on/off
       // 'HIGHTLIGHT' ENTIRE BUS ROUTE PATH  
-      function showFullRoute(data, elem) {
+      function showFullRoute(elem) {
         if (toggleRoute == 0) {
           svgContainer.selectAll(".busroute-path")
-            .style("opacity", function (data) {
+            .style("opacity", function () {
               return 0.1;
             });
           svgContainer.selectAll(".busroute-" + elem.id)
-            .style("opacity", function (data) {
+            .style("opacity", function () {
               return 1;
             });
           toggleRoute = 1
@@ -425,10 +427,10 @@
         })
       }
 
-      function showRoute(d, i) {
+      function showRoute(elem) {
         d3.selectAll(".details").remove(); //reset   
-        showFullRoute(d, this);
-        showRoutePopup(this);
+        showFullRoute(elem);  //shows full path
+        showRoutePopup(elem);  //shows popup with details
       }
 
       function closeRoutePopup() {
@@ -473,12 +475,17 @@
         }
       }
 
-      function dropdownChange(d, i) {
-        var selectedId = d3.select(this).property("value");
+      //dropdown change event: show route selected
+      function dropdownChange() {
+        var selectedId = d3.select(this).property("value"); //dropdown option selected
+        var dropElem = {}; //temp
+        dropElem.id = selectedId;
+        dropElem.style = "stroke: red;";
+        showRoute(dropElem);
       }
 
-      var dropdown = d3.select("body").insert("select", "svgContainer");
-      // .on("change", dropdownChange);
+      var dropdown = d3.select("body").insert("select", "svgContainer")
+        .on("change", dropdownChange);
 
       dropdown.selectAll("option")
         .data(busRouteData)
