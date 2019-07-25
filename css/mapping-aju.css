@@ -28,14 +28,14 @@ path {
 
 circle {
     fill: white;
-    stroke: #050E1C;
+    stroke: rgb(9, 25, 51);
     stroke-width: 7;
     cursor: pointer;
 }
 
 text {
     font-size: 23px;
-    font-family: Futura, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     fill: white;
     stroke: #050E1C;
@@ -71,12 +71,10 @@ text {
     font-size: 11px;
     font-weight: bold;
     stroke: none;
-    text-align: center;
 }
 
-#close {
-    font-family: sans-serif;
-    font-size: 14px;
-    fill: white;
+#route-id {
+    font-size: 17px;
+    font-weight: bold;
     stroke: none;
 }

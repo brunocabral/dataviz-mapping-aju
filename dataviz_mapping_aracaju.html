@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./css/mapping-aju.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -378,6 +379,8 @@
           .duration(1500)
           .attr("opacity", .2);
 
+          
+
         //route details "popup" path
         var pathPos = [
           [detailsX + marginX, detailsY + marginY - 20],
@@ -405,10 +408,22 @@
         svgContainer.append("text")
           .attr("id", "title-details")
           .attr("class", "details")
-          .attr("x", detailsX)
+          .attr("x", detailsX + detailsWidth/2)
           .attr("y", detailsY - 5)
+          .attr("text-anchor", "middle")
           .text(function () {
             return links[0].busRouteName;
+          });
+
+          //route id number on "popup"
+          svgContainer.append("text")
+          .attr("id", "route-id")
+          .attr("class", "details")
+          .attr("x", detailsX + (detailsWidth/2))
+          .attr("y", detailsY + marginY/2)
+          .attr("text-anchor", "middle")
+          .text(function () {
+            return links[0].busRouteId;
           });
 
         //popup nodes
