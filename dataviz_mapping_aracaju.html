@@ -203,6 +203,13 @@
         .enter().append("circle")
         .attr("r", 10)
         .call(drag)
+        .on('mouseover', function() {
+            d3.select(this)
+            .attr("style", "stroke: #0c2244");
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr("style", "stroke: #050E1C");
+        })
         .on('dblclick', showNeighborStations);
 
       var text = svgContainer.append("g").selectAll("text")
