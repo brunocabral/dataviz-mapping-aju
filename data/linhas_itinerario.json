@@ -1,1400 +1,1499 @@
 [
     {
-        "numeracao": "101",
-        "nome": "Parque São José / Maracaju",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            }
-        ]
-    },
-    {
-        "numeracao": "102",
-        "nome": "Soledade / Maracaju",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            }
-        ]
-    },
-    {
-        "numeracao": "104",
-        "nome": "Pousada Verde / Maracaju",
-        "tipo": "Linha Urbana",
-        "terminais": []
-    },
-    {
-        "numeracao": "301",
-        "nome": "Luiz Alves / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "302",
-        "nome": "Conjunto Jardim / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "305",
-        "nome": "Parque dos Faróis / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "306",
-        "nome": "Guajará / Palestina / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "307",
-        "nome": "São Cristóvão / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 0
-            },
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "308",
-        "nome": "Sobrado / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "309",
-        "nome": "Centro Administrativo / Zona Oeste",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "310",
-        "nome": "Terminal Rodoviário / Shopping Riomar",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "311",
-        "nome": "Rita Cacete / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "312",
-        "nome": "Pedreira / Zona Oeste",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            }
-        ]
-    },
-    {
-        "numeracao": "801",
-        "nome": "Luiz Alves / Campus",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            }
-        ]
-    },
-    {
-        "numeracao": "401",
-        "nome": "Inácio Barbosa / Unit / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao":"403",
-        "nome": "Santa Maria / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "405",
-        "nome": "17 de Março / DIA via Aquarius",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "406",
-        "nome": "Aloque / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "407",
-        "nome": "Padre Pedro / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "408_1",
-        "nome": "Paraíso Sul / DIA 01",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "409",
-        "nome": "Riomar / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "410",
-        "nome": "Inácio Barbosa / Jardins / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "411",
-        "nome": "Inácio Barbosa / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "501",
-        "nome": "Povoado São José / Zona Sul",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "502",
-        "nome": "Santa Tereza / Zona Sul",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "503",
-        "nome": "Conjunto Beira Mar / Zona Sul",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "504",
-        "nome": "17 de Março / Zona Sul via Aquarius",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "505",
-        "nome": "Santa Maria / Zona Sul",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "604",
-        "nome": "Terminal Rodoviário / Maranhão",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "605",
-        "nome": "18 do Forte / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "606",
-        "nome": "Parque São José / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "607",
-        "nome": "Santos Dumont / Mercado",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 4
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "610",
-        "nome": "São Carlos / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": []
-    },
-    {
-        "numeracao": "612",
-        "nome": "São Carlos / Mercado",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "613",
-        "nome": "Bairro Industrial / Mercado",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "614",
-        "nome": "Getimana / Mercado",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "615",
-        "nome": "Bugio / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "701",
-        "nome": "Jardim Atlântico / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "702",
-        "nome": "Augusto Franco / Beira Mar",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "703",
-        "nome": "Augusto Franco / Siqueira Campos",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "704",
-        "nome": "Conjunto Jardim / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "705",
-        "nome": "Parque dos Faróis / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "706",
-        "nome": "Santa Lúcia / Centro via Suíssa",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "707",
-        "nome": "Castelo Branco / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "708",
-        "nome": "Bairro América / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "709",
-        "nome": "DIA / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "710",
-        "nome": "DER / Veneza",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "711",
-        "nome": "Sol Nascente / Nova Saneamento",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "712",
-        "nome": "Quissamã / Mercado",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "713",
-        "nome": "São Cristóvão / Palestina / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 0
-            },
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "714",
-        "nome": "Quissamã / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "715",
-        "nome": "Tijuquinha / Des. Maynard",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "716",
-        "nome": "Socorro / Br / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "717",
-        "nome": "Mosqueiro / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "718",
-        "nome": "Guajará / Palestina / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "719",
-        "nome": "Sobrado / Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "721",
-        "nome": "Castelo Branco / Suissa",
-        "tipo": "Linha Urbana",
-        "terminais": []
-    },
-    {
-        "numeracao": "722",
-        "nome": "Estiva / Mercado Via Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "723",
-        "nome": "Caípe Novo / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": []
-    },
-    {
-        "numeracao": "901",
-        "nome": "Socorro / Terminal Marcos Freire",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 4
-            }
-        ]
-    },
-    {
-        "numeracao": "902",
-        "nome": "São Braz / Terminal Marcos Freire / Maria do Carmo",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 4
-            }
-        ]
-    },
-    {
-        "numeracao": "001",
-        "nome": "Augusto Franco / Bugio",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "002",
-        "nome": "Fernando Collor / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "003",
-        "nome": "João Alves / Orlando Dantas",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "004",
-        "nome": "Santa Maria / Mercado",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "005",
-        "nome": "Maracaju / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "006",
-        "nome": "Sanatório / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": []
-    },
-    {
-        "numeracao": "007",
-        "nome": "Fernando Collor / Atalaia",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 4
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "008",
-        "nome": "Santa Tereza / Bairro Industrial",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "020",
-        "nome": "Piabeta /DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 4
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "030",
-        "nome": "Marcos Freire I e III / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            },
-            {
-                "id": 3
-            }
-        ]
-    },
-    {
-        "numeracao": "031",
-        "nome": "Eduardo Gomes / Desembargador Maynard",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "033",
-        "nome": "Terminal Rodoviário / Desembargador Maynard",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "034",
-        "nome": "Terminal Rodoviário / Lourival Batista",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "035",
-        "nome": "Terminal Rodoviário / Nova Saneamento",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "040",
-        "nome": "Marcos Freire II / DIA",
-        "tipo": "Linha Suburbana",
-        "terminais": [
-            {
-                "id": 9
-            },
-            {
-                "id": 2
-            },
-            {
-                "id": 3
-            },
-            {
-                "id": 4
-            }
-        ]
-    },
-    {
-        "numeracao": "040A",
-        "nome": "Marcos Freire II / Atalaia",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 3
-            },
-            {
-                "id": 9
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "050",
-        "nome": "Campus / Hospital Universitário",
-        "tipo": "Linha Suburbana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            },
-            {
-                "id": 3
-            }
-        ]
-    },
-    {
-        "numeracao": "051",
-        "nome": "Atalaia / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "060",
-        "nome": "Padre Pedro / Campus",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "061",
-        "nome": "Marcos Freire / Centro",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "062",
-        "nome": "Piabeta / Centro",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 4
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "062B",
-        "nome": "Piabeta / Mercado",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 4
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "063",
-        "nome": "Albano Franco / Centro / Via Osvaldo Aranha",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 4
-            },
-            {
-                "id": 7
-            }
-        ]
-    },
-    {
-        "numeracao": "064",
-        "nome": "Albano Franco / Centro / Via Porto Dantas",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 4
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "070",
-        "nome": "Santa Maria / Campus",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "071",
-        "nome": "Atalaia Nova / Centro",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 5
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "072",
-        "nome": "Barra dos Coqueiros / Centro",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 5
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "073",
-        "nome": "Atalaia Nova / Mercado",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 5
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "074",
-        "nome": "Unit / Centro",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "080",
-        "nome": "Bugio / Atalaia",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 9
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "100_CS1",
-        "nome": "Circular Shoppings 01",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "100_CS2",
-        "nome": "Circular Shoppings 02",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "200_CIC1",
-        "nome": "Circular Indústria e Comércio 01",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 8
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "200_CIC2",
-        "nome": "Circular Indústria e Comércio 02",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 3
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "402_1",
-        "nome": "Santa Lúcia / DIA 01",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "402_2",
-        "nome": "Santa Lúcia / DIA 02",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "402_3",
-        "nome": "Santa Lúcia / DIA 03",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "411B",
-        "nome": "Inácio Barbosa / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "600 CP1",
-        "nome": "Circular Praias 01",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "600 CP2",
-        "nome": "Circular Praias 02",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "009",
-        "nome": "Terminal Marcos Freire / Atalaia",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 4
-            },
-            {
-                "id": 6
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "413",
-        "nome": "Aquarius / DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "065B",
-        "nome": "Marcos Freire II / Mercado",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "065",
-        "nome": "Marcos Freire II / Centro",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 6
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "412",
-        "nome": "Circular DIA",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            },
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "408_2",
-        "nome": "Paraíso Sul / DIA 02",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "506",
-        "nome": "17 de Março / Zona Sul via Aeroporto",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 10
-            }
-        ]
-    },
-    {
-        "numeracao": "010",
-        "nome": "DIA / Zona Oeste",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 2
-            },
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "404",
-        "nome": "Caípe Novo / DIA",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 9
-            }
-        ]
-    },
-    {
-        "numeracao": "076",
-        "nome": "Barra dos Coqueiros / Mercado",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 5
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "603",
-        "nome": "Orlinha / Mercado",
-        "tipo": "Linha Urbana",
-        "terminais": [
-            {
-                "id": 5
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "075",
-        "nome": "Litoral  Norte / Mercado",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 5
-            },
-            {
-                "id": 6
-            }
-        ]
-    },
-    {
-        "numeracao": "032_1",
-        "nome": "Tijuquinha / Osvaldo Aranha 01",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "032_2",
-        "nome": "Tijuquinha / Osvaldo Aranha 02",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 1
-            },
-            {
-                "id": 2
-            },
-            {
-                "id": 8
-            }
-        ]
-    },
-    {
-        "numeracao": "103",
-        "nome": "Conjunto Maria do Carmo / Maracaju",
-        "tipo": "Linha Metropolitana",
-        "terminais": [
-            {
-                "id": 3
-            }
-        ]
+      "numeracao": "101",
+      "nome": "Parque São José / Maracaju",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2089-101-parque-sao-jose-maracaju"
+    },
+    {
+      "numeracao": "102",
+      "nome": "Soledade / Maracaju",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2090-102-soledade-maracaju"
+    },
+    {
+      "numeracao": "104",
+      "nome": "Pousada Verde / Maracaju",
+      "tipo": "Linha Urbana",
+      "terminais": [],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3014-104-alto-da-boa-vista-maracaju"
+    },
+    {
+      "numeracao": "301",
+      "nome": "Luiz Alves / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2093-301-luiz-alves-zona-oeste"
+    },
+    {
+      "numeracao": "302",
+      "nome": "Conjunto Jardim / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2094-302-conjunto-jardim-zona-oeste"
+    },
+    {
+      "numeracao": "305",
+      "nome": "Parque dos Faróis / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2095-305-parque-dos-farois-zona-oeste"
+    },
+    {
+      "numeracao": "306",
+      "nome": "Guajará / Palestina / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2096-306-guajara-palestina-zona-oeste"
+    },
+    {
+      "numeracao": "307",
+      "nome": "São Cristóvão / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2097-307-sao-cristovao-zona-oeste"
+    },
+    {
+      "numeracao": "308",
+      "nome": "Sobrado / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2098-308-sobrado-zona-oeste"
+    },
+    {
+      "numeracao": "309",
+      "nome": "Centro Administrativo / Zona Oeste",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2099-309-centro-administrativo-zona-oeste"
+    },
+    {
+      "numeracao": "310",
+      "nome": "Terminal Rodoviário / Shopping Riomar",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2100-310-terminal-rodoviario-shopping-riomar"
+    },
+    {
+      "numeracao": "311",
+      "nome": "Rita Cacete / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2101-311-rita-cacete-zona-oeste"
+    },
+    {
+      "numeracao": "312",
+      "nome": "Pedreira / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2102-312-pedreira-zona-oeste"
+    },
+    {
+      "numeracao": "801",
+      "nome": "Luiz Alves / Campus",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2586-801-luiz-alves-campus"
+    },
+    {
+      "numeracao": "401",
+      "nome": "Inácio Barbosa / Unit / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2104-401-inacio-barbosa-unit-dia"
+    },
+    {
+      "numeracao": "403",
+      "nome": "Santa Maria / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2112-403-santa-maria-dia-via-prainhaciras"
+    },
+    {
+      "numeracao": "405",
+      "nome": "17 de Março / DIA via Aquarius",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2114-405-17-de-marco-dia-via-marivan"
+    },
+    {
+      "numeracao": "406",
+      "nome": "Aloque / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2115-406-aloque-dia"
+    },
+    {
+      "numeracao": "407",
+      "nome": "Padre Pedro / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2116-407-padre-pedro-dia"
+    },
+    {
+      "numeracao": "408_1",
+      "nome": "Paraíso Sul / DIA 01",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2760-4081-paraiso-sul-dia-01"
+    },
+    {
+      "numeracao": "409",
+      "nome": "Riomar / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2118-409-riomar-dia"
+    },
+    {
+      "numeracao": "410",
+      "nome": "Inácio Barbosa / Jardins / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2119-410-inacio-barbosa-jardins-dia"
+    },
+    {
+      "numeracao": "411",
+      "nome": "Inácio Barbosa / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2120-411-inacio-barbosa-dia"
+    },
+    {
+      "numeracao": "501",
+      "nome": "Povoado São José / Zona Sul",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2122-501-povoado-sao-jose-zona-sul"
+    },
+    {
+      "numeracao": "502",
+      "nome": "Santa Tereza / Zona Sul",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2123-502-aeroporto-zona-sul"
+    },
+    {
+      "numeracao": "503",
+      "nome": "Conjunto Beira Mar / Zona Sul",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2124-503-conjunto-beira-mar-zona-sul"
+    },
+    {
+      "numeracao": "504",
+      "nome": "17 de Março / Zona Sul via Aquarius",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2125-504-17-de-marco-zona-sul-via-aquarius"
+    },
+    {
+      "numeracao": "505",
+      "nome": "Santa Maria / Zona Sul",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2126-505-santa-maria-zona-sul-via-prainhaciras"
+    },
+    {
+      "numeracao": "604",
+      "nome": "Terminal Rodoviário / Maranhão",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2127-604-terminal-rodoviario-maranhao"
+    },
+    {
+      "numeracao": "605",
+      "nome": "18 do Forte / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2128-605-18-do-forte-centro"
+    },
+    {
+      "numeracao": "606",
+      "nome": "Parque São José / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2129-606-parque-sao-jose-centro"
+    },
+    {
+      "numeracao": "607",
+      "nome": "Santos Dumont / Mercado",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2130-607-santos-dumont-mercado"
+    },
+    {
+      "numeracao": "610",
+      "nome": "São Carlos / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [],
+      "url": ""
+    },
+    {
+      "numeracao": "612",
+      "nome": "São Carlos / Mercado",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2131-612-sao-carlos-mercado"
+    },
+    {
+      "numeracao": "613",
+      "nome": "Bairro Industrial / Mercado",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/853-613-bairro-industrial-mercado"
+    },
+    {
+      "numeracao": "614",
+      "nome": "Getimana / Mercado",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2132-614-sanatorio-centro"
+    },
+    {
+      "numeracao": "615",
+      "nome": "Bugio / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2133-615-bugio-centro"
+    },
+    {
+      "numeracao": "701",
+      "nome": "Jardim Atlântico / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2134-701-jardim-atlantico-centro"
+    },
+    {
+      "numeracao": "702",
+      "nome": "Augusto Franco / Beira Mar",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2135-702-augusto-franco-beira-mar"
+    },
+    {
+      "numeracao": "703",
+      "nome": "Augusto Franco / Siqueira Campos",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/857-703-augusto-franco-siqueira-campos"
+    },
+    {
+      "numeracao": "704",
+      "nome": "Conjunto Jardim / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2136-704-conjunto-jardim-osvaldo-aranha"
+    },
+    {
+      "numeracao": "705",
+      "nome": "Parque dos Faróis / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2137-705-parque-dos-farois-osvaldo-aranha"
+    },
+    {
+      "numeracao": "706",
+      "nome": "Santa Lúcia / Centro via Suíssa",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/862-706-santa-lucia-centro-via-suissa"
+    },
+    {
+      "numeracao": "707",
+      "nome": "Castelo Branco / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2138-707-castelo-branco-centro"
+    },
+    {
+      "numeracao": "708",
+      "nome": "Bairro América / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2139-708-terminal-rodoviario-bairro-america"
+    },
+    {
+      "numeracao": "709",
+      "nome": "DIA / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2140-709-dia-centro-via-clinica"
+    },
+    {
+      "numeracao": "710",
+      "nome": "DER / Veneza",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2141-710-der-veneza"
+    },
+    {
+      "numeracao": "711",
+      "nome": "Sol Nascente / Nova Saneamento",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/attachments/article/866/711%20-%20SOL%20NASCENTE%20NOVA%20SANEAMENTO%20I.pdf"
+    },
+    {
+      "numeracao": "712",
+      "nome": "Quissamã / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2143-712-povoado-cardoso-mercado"
+    },
+    {
+      "numeracao": "713",
+      "nome": "São Cristóvão / Palestina / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 0
+        },
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2144-713-sao-cristovao-palestina-osvaldo-aranha"
+    },
+    {
+      "numeracao": "714",
+      "nome": "Quissamã / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2145-714-povoado-quissama-mercado"
+    },
+    {
+      "numeracao": "715",
+      "nome": "Tijuquinha / Des. Maynard",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2146-715-tijuquinha-des-maynard"
+    },
+    {
+      "numeracao": "716",
+      "nome": "Socorro / Br / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2147-716-socorro-br-osvaldo-aranha"
+    },
+    {
+      "numeracao": "717",
+      "nome": "Mosqueiro / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2148-717-mosqueiro-centro"
+    },
+    {
+      "numeracao": "718",
+      "nome": "Guajará / Palestina / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/871-718-guajara-palestina-osvaldo-aranha"
+    },
+    {
+      "numeracao": "719",
+      "nome": "Sobrado / Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2149-719-sobrado-osvaldo-aranha"
+    },
+    {
+      "numeracao": "721",
+      "nome": "Castelo Branco / Suissa",
+      "tipo": "Linha Urbana",
+      "terminais": [],
+      "url": ""
+    },
+    {
+      "numeracao": "722",
+      "nome": "Estiva / Mercado Via Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2150-722-estiva-mercado"
+    },
+    {
+      "numeracao": "723",
+      "nome": "Caípe Novo / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [],
+      "url": ""
+    },
+    {
+      "numeracao": "901",
+      "nome": "Socorro / Terminal Marcos Freire",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 4
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2151-901-socorro-terminal-marcos-freire"
+    },
+    {
+      "numeracao": "902",
+      "nome": "São Braz / Terminal Marcos Freire / Maria do Carmo",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 4
+        }
+      ],
+      "url": ""
+    },
+    {
+      "numeracao": "001",
+      "nome": "Augusto Franco / Bugio",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2044-001-augusto-franco-bugio"
+    },
+    {
+      "numeracao": "002",
+      "nome": "Fernando Collor / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2050-002-fernando-collor-dia"
+    },
+    {
+      "numeracao": "003",
+      "nome": "João Alves / Orlando Dantas",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2045-003-joao-alves-orlando-dantas"
+    },
+    {
+      "numeracao": "004",
+      "nome": "Santa Maria / Mercado",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2047-004-santa-maria-mercado"
+    },
+    {
+      "numeracao": "005",
+      "nome": "Maracaju / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2046-005-maracaju-dia"
+    },
+    {
+      "numeracao": "006",
+      "nome": "Sanatório / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [],
+      "url": "#"
+    },
+    {
+      "numeracao": "007",
+      "nome": "Fernando Collor / Atalaia",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2048-007-fernando-collor-atalaia"
+    },
+    {
+      "numeracao": "008",
+      "nome": "Santa Tereza / Bairro Industrial",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2049-008-porto-sul-bairro-industrial"
+    },
+    {
+      "numeracao": "020",
+      "nome": "Piabeta /DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2055-020-piabeta-dia"
+    },
+    {
+      "numeracao": "030",
+      "nome": "Marcos Freire I e III / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        },
+        {
+          "id": 3
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2056-030-marcos-freire-i-e-iii-dia"
+    },
+    {
+      "numeracao": "031",
+      "nome": "Eduardo Gomes / Desembargador Maynard",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2057-031-eduardo-gomes-des-maynard"
+    },
+    {
+      "numeracao": "033",
+      "nome": "Terminal Rodoviário / Desembargador Maynard",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2058-033-terminal-rodoviario-des-maynard"
+    },
+    {
+      "numeracao": "034",
+      "nome": "Terminal Rodoviário / Lourival Batista",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/806-034-terminal-rodoviario-lourival-batista"
+    },
+    {
+      "numeracao": "035",
+      "nome": "Terminal Rodoviário / Nova Saneamento",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2059-035-terminal-rodoviario-nova-saneamento"
+    },
+    {
+      "numeracao": "040",
+      "nome": "Marcos Freire II / DIA",
+      "tipo": "Linha Suburbana",
+      "terminais": [
+        {
+          "id": 9
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2063-040-a-marcos-freire-ii-atalaia"
+    },
+    {
+      "numeracao": "040A",
+      "nome": "Marcos Freire II / Atalaia",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2063-040-a-marcos-freire-ii-atalaia"
+    },
+    {
+      "numeracao": "050",
+      "nome": "Campus / Hospital Universitário",
+      "tipo": "Linha Suburbana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2064-050-campus-hospital-universitario"
+    },
+    {
+      "numeracao": "051",
+      "nome": "Atalaia / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2065-051-atalaia-centro"
+    },
+    {
+      "numeracao": "060",
+      "nome": "Padre Pedro / Campus",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2066-060-padre-pedro-campus"
+    },
+    {
+      "numeracao": "061",
+      "nome": "Marcos Freire / Centro",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2067-061-marcos-freire-centro"
+    },
+    {
+      "numeracao": "062",
+      "nome": "Piabeta / Centro",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2068-062-piabeta-centro"
+    },
+    {
+      "numeracao": "062B",
+      "nome": "Piabeta / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2069-062-b-piabeta-mercado"
+    },
+    {
+      "numeracao": "063",
+      "nome": "Albano Franco / Centro / Via Osvaldo Aranha",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 7
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2070-063-albano-franco-centro-via-o-aranha"
+    },
+    {
+      "numeracao": "064",
+      "nome": "Albano Franco / Centro / Via Porto Dantas",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2071-064-albano-franco-centro-via-p-dantas"
+    },
+    {
+      "numeracao": "070",
+      "nome": "Santa Maria / Campus",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2079-070-santa-maria-campus-universitario"
+    },
+    {
+      "numeracao": "071",
+      "nome": "Atalaia Nova / Centro",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2080-071-atalaia-nova-centro"
+    },
+    {
+      "numeracao": "072",
+      "nome": "Barra dos Coqueiros / Centro",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2081-072-barra-dos-coqueiros-centro"
+    },
+    {
+      "numeracao": "073",
+      "nome": "Atalaia Nova / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2082-073-atalaia-nova-mercado"
+    },
+    {
+      "numeracao": "074",
+      "nome": "Unit / Centro",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2083-074-unit-centro-via-hospital-primavera"
+    },
+    {
+      "numeracao": "080",
+      "nome": "Bugio / Atalaia",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2084-080-bugio-atalaia"
+    },
+    {
+      "numeracao": "100_CS1",
+      "nome": "Circular Shoppings 01",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2087-100-1-circular-shoppings-01"
+    },
+    {
+      "numeracao": "100_CS2",
+      "nome": "Circular Shoppings 02",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2088-100-2-circular-shoppings-02"
+    },
+    {
+      "numeracao": "200_CIC1",
+      "nome": "Circular Indústria e Comércio 01",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2091-2001-circular-industria-e-comercio-01"
+    },
+    {
+      "numeracao": "200_CIC2",
+      "nome": "Circular Indústria e Comércio 02",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 3
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2092-2002-circular-industria-e-comercio-02"
+    },
+    {
+      "numeracao": "402_1",
+      "nome": "Santa Lúcia / DIA 01",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2105-4021-santa-lucia-dia-01"
+    },
+    {
+      "numeracao": "402_2",
+      "nome": "Santa Lúcia / DIA 02",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2106-4022-santa-lucia-dia-02"
+    },
+    {
+      "numeracao": "402_3",
+      "nome": "Santa Lúcia / DIA 03",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2413-4023-santa-lucia-dia-03"
+    },
+    {
+      "numeracao": "411B",
+      "nome": "Inácio Barbosa / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2121-411b-inacio-barbosa-dia-b"
+    },
+    {
+      "numeracao": "600 CP1",
+      "nome": "Circular Praias 01",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/846-600-cp1-circular-praias-01"
+    },
+    {
+      "numeracao": "600 CP2",
+      "nome": "Circular Praias 02",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/847-600-cp2-circular-praias-02"
+    },
+    {
+      "numeracao": "413",
+      "nome": "Aquarius / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2918-413-aquarius-dia-via-aeroprto"
+    },
+    {
+      "numeracao": "065B",
+      "nome": "Marcos Freire II / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2073-065-b-marcos-freire-mercado"
+    },
+    {
+      "numeracao": "065",
+      "nome": "Marcos Freire II / Centro",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2073-065-b-marcos-freire-mercado"
+    },
+    {
+      "numeracao": "412",
+      "nome": "Circular DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2774-412-circular-dia"
+    },
+    {
+      "numeracao": "408_2",
+      "nome": "Paraíso Sul / DIA 02",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "#"
+    },
+    {
+      "numeracao": "506",
+      "nome": "17 de Março / Zona Sul via Aeroporto",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 10
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2920-506-17-de-marco-zona-sul-via-aeroporto"
+    },
+    {
+      "numeracao": "010",
+      "nome": "DIA / Zona Oeste",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2893-010-dia-zona-oeste"
+    },
+    {
+      "numeracao": "404",
+      "nome": "Caípe Novo / DIA",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2113-404-caipe-novo-dia"
+    },
+    {
+      "numeracao": "076",
+      "nome": "Barra dos Coqueiros / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2857-076-barra-dos-coqueiros-mercado"
+    },
+    {
+      "numeracao": "603",
+      "nome": "Orlinha / Mercado",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "#"
+    },
+    {
+      "numeracao": "075",
+      "nome": "Litoral  Norte / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2538-075-litoral-norte-mercado"
+    },
+    {
+      "numeracao": "032_1",
+      "nome": "Tijuquinha / Osvaldo Aranha 01",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2030-0321-tijuquinha-osvaldo-aranha-01"
+    },
+    {
+      "numeracao": "032_2",
+      "nome": "Tijuquinha / Osvaldo Aranha 02",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2031-0322-tijuquinha-osvaldo-aranha-02"
+    },
+    {
+      "numeracao": "103",
+      "nome": "Conjunto Maria do Carmo / Maracaju",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 3
+        }
+      ],
+      "url": "#"
     }
-]
+  ]

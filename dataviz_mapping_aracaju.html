@@ -33,7 +33,8 @@
     //     "id": 1
     //   }, {
     //     "id": 2
-    //   }]
+    //   }],
+    //   "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2093-301-luiz-alves-zona-oeste"
     // }]
 
     //=========== Standardizing and preparing input data for dataviz ====================
@@ -49,8 +50,8 @@
 
     function renderMap(error, stationData, busRouteData) {
 
-      //== NODES - Initiate input data of Bus Stations
-      function initStationData() {
+       //== NODES - Initiate input data of Bus Stations
+       function initStationData() {
         var stations = []; //temp
         for (var i = 0; i < stationData.length; i++) {
           //transforms a JSON object into a Station object
@@ -89,6 +90,7 @@
               link.target = target.id;
               link.busRouteId = busRouteData[i].numeracao.toString();
               link.busRouteName = busRouteData[i].nome;
+              link.url = busRouteData[i].url;
               link.color = color;
               links.push(link);
             }
@@ -128,16 +130,16 @@
           'target': link.source
         });
         var sameAll = same.concat(sameInverse);
-
+        
         _.each(sameAll, function (s, i) {
           s.sameIndex = (i + 1);
           s.sameTotal = sameAll.length;
           s.sameTotalHalf = (s.sameTotal / 2);
           s.sameUneven = ((s.sameTotal % 2) !== 0);
           s.sameMiddleLink = ((s.sameUneven === true) && (Math.ceil(s.sameTotalHalf) === s.sameIndex));
-          s.sameLowerHalf = (s.sameIndex <= s.sameTotalHalf);
-          s.sameArcDirection = s.sameLowerHalf ? 0 : 1;
-          s.sameIndexCorrected = s.sameLowerHalf ? s.sameIndex : (s.sameIndex - Math.ceil(s.sameTotalHalf));
+          s.sameLowerHalf = (s.sameIndex < s.sameTotalHalf);
+          s.sameArcDirection = s.sameLowerHalf ? 0 : 1; //define arc direction
+          s.sameIndexCorrected = s.sameLowerHalf ? s.sameIndex : (s.sameIndex - Math.ceil(s.sameTotalHalf) + 1);
         });
       });
 
@@ -172,7 +174,9 @@
       // RENDER - SVG
       var svgContainer = d3.select("body").append("svg")
         .attr("width", width)
-        .attr("height", height);
+        .attr("height", height)
+        .attr("xlmns", "https://www.w3.org/2000/svg")
+        .attr("xmlns:xlink", "https://www.w3.org/1999/xlink"); //for svg hyperlink
 
       // TOOLTIP - Bus Route info 
       var tooltip = d3.select("body").append("div")
@@ -302,10 +306,10 @@
           dy = (d.target.y - d.source.y),
           dr = Math.sqrt(dx * dx + dy * dy),
           unevenCorrection = (d.sameUneven ? 0 : 0.3),
-          arc = ((dr * d.maxSameHalf) / (d.sameIndexCorrected - unevenCorrection));
+          arc = ((dr * d.maxSameHalf) / (d.sameIndexCorrected - unevenCorrection)); //arc angle
 
         if (d.sameMiddleLink) {
-          arc = 0;
+          arc = 0; //middle is straigth
         }
         return "M" + d.source.x + "," + d.source.y + "A" + arc + "," + arc + " 0 0," + d.sameArcDirection + " " + d
           .target
@@ -338,6 +342,7 @@
         var links = LINKS.filter(i => i.busRouteId === elem.id); //gets all sections of the bus line.
 
         var stationsVisitedSeq = []; //stores the original sequence of stations visited
+        
         //bus route = sum of sections (Station A-> Station B, Station B -> C, c->d...)
         for (let i = 0; i < links.length; i++) {
           //adds if stations is not in sequence yet 
@@ -379,8 +384,6 @@
           .duration(1500)
           .attr("opacity", .2);
 
-          
-
         //route details "popup" path
         var pathPos = [
           [detailsX + marginX, detailsY + marginY - 20],
@@ -415,16 +418,31 @@
             return links[0].busRouteName;
           });
 
-          //route id number on "popup"
+          //route number on "popup"
           svgContainer.append("text")
-          .attr("id", "route-id")
-          .attr("class", "details")
-          .attr("x", detailsX + (detailsWidth/2))
-          .attr("y", detailsY + marginY/2)
-          .attr("text-anchor", "middle")
-          .text(function () {
-            return links[0].busRouteId;
-          });
+            .attr("id", "route-id")
+            .attr("class", "details")
+            .attr("x", detailsX + (detailsWidth/2))
+            .attr("y", detailsY + marginY/2)
+            .attr("text-anchor", "middle")
+            .text(function () {
+              return links[0].busRouteId;
+            });
+
+          //route hyperlink (more info link)
+           var aUrl = svgContainer.append("a")
+            .attr("class", "details")
+            .attr("href", links[0].url)
+            .attr("target", "_blank");
+
+           aUrl.append("text")     
+            .attr("id", "route-url")
+            .attr("x", detailsX + (detailsWidth/2))
+            .attr("y", detailsY + detailsHeight - 5)
+            .attr("text-anchor", "middle")
+            .text(function () {
+              return "Mais Info";
+            });
 
         //popup nodes
         stationsVisitedSeq.forEach(function (d) {

@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://raw.githack.com/brunocabral/dataviz-mapping-aju/master/etc/background.png");
+    background-image: url("../etc/background.png");
     background-repeat: no-repeat;
 }
 
@@ -38,8 +38,7 @@ text {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     fill: white;
-    stroke: #050E1C;
-    pointer-events: none;
+    stroke: #050E1C;   
     /*text-shadow: 2px 0 0 #fff, -1px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;*/
 }
 
@@ -55,6 +54,7 @@ text {
     stroke: none;
     font-weight: normal;
     letter-spacing: 5px;
+    pointer-events: none;
 }
 
 #details {
@@ -65,16 +65,27 @@ text {
 #path-details {
     stroke-width: 7;
     cursor: default;
+
 }
 
 #title-details {
     font-size: 11px;
     font-weight: bold;
     stroke: none;
+    pointer-events: none;
 }
 
 #route-id {
     font-size: 17px;
     font-weight: bold;
     stroke: none;
+    pointer-events: none;
+}
+
+#route-url {
+    font-size: 14px;
+    font-weight: bold;
+    stroke: none;
+    cursor: pointer;
+    fill: lightskyblue;
 }
