@@ -1,9 +1,9 @@
-# Interactive Data Visualization of Public Bus Transportation connections between bus stations in Aracaju, Brazil.
+# Interactive Data Visualization of Public Bus Transportation connections between bus stations in Aracaju, Sergipe, Brazil.
 
-The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju-SE, Brazil. However, the mobility inside the network is cloudy for those whom has no knowledge about the bus lines' routes.
+The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju, Sergipe, Brazil. However, the mobility inside the network is cloudy for those whom has no knowledge about the bus lines' routes.
 
 <a name="tryit"></a>
-### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/0cd7b5380817168b012bc11a94a59041c1d1ac2c/)
+### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/ecf345db1dea54639f467523dc28f6f61dac4969/)
 
 ## Folder
 
@@ -28,7 +28,7 @@ The main file `dataviz_mapping_aracaju.html` is in root directory.
 ### Planned updates:
 - Add a dropdown to choose bus line;
 - Show bus lines that visit less than 2 stations (no connections);
-- Show more info about a bus line selected (url to original pdf);
+- ~Show more info about a bus line selected (url to original pdf)~ (done);
 - ~Show a summary visualization of the sequencial station connections when a bus line is selected, in a format similar to [this](https://image.winudf.com/v2/image/YmUuc3RpYl9zY3JlZW5zaG90c18xXzVlODFhMzk/screen-1.jpg?fakeurl=1&type=.jpg);~ (done) 
 - Allow to choose between bus line directions (invert station sequence);
 
