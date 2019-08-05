@@ -3,7 +3,7 @@
 The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju, Sergipe, Brazil. However, the mobility inside the network is cloudy for those whom has no knowledge about the bus lines' routes.
 
 <a name="tryit"></a>
-### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/ecf345db1dea54639f467523dc28f6f61dac4969/)
+### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/1d01e7de79fe522c211513df177ec20da3dfffc9/)
 
 ## Folder
 
@@ -39,4 +39,4 @@ The main file `dataviz_mapping_aracaju.html` is in root directory.
 2. Locally: 
    1. Downloading the projecting 
    2. Opening `dataviz_mapping_aracaju.html`.  
-       - But be aware that CORS issue could happen when try loading JSON/CSS files. If this happen, one solution is changing the loading  of the respective files to remote (web URLS instead of local). 
+       - But be aware that CORS issue could happen when try loading JSON/CSS files. If this happen, one solution is changing the loading  of the respective files to remote (web URLS instead of local) or in Mozilla Firefox disable it (about:config) to able for preview. 
