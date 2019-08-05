@@ -39,6 +39,25 @@
 
     //=========== Standardizing and preparing input data for dataviz ====================
 
+    //custom color scheme 
+    var colorScheme = [
+              {"cod":"#e7298a","count": 0},
+              {"cod":"#d9d9d9","count": 0},
+              {"cod":"#80b1d3","count": 0},
+              {"cod":"#2b8cbe","count": 0},
+              {"cod":"#133fed","count": 0},
+              {"cod":"#a6cee3","count": 0},
+              {"cod":"#ffed6f","count": 0},
+              {"cod":"#f781bf","count": 0},
+              {"cod":"#6a3d9a","count": 0},
+              {"cod":"#b813d1","count": 0},
+              {"cod":"#e31a1c","count": 0},
+              {"cod":"#ff7f00","count": 0},
+              {"cod":"#fdbf6f","count": 0},
+              {"cod":"#33a02c","count": 0},
+              {"cod":"#b2df8a","count": 0},
+              {"cod":"#b15928","count": 0}];
+
     var STATIONS = [];
     var LINKS = [];
 
@@ -50,8 +69,8 @@
 
     function renderMap(error, stationData, busRouteData) {
 
-       //== NODES - Initiate input data of Bus Stations
-       function initStationData() {
+      //== NODES - Initiate input data of Bus Stations
+      function initStationData() {
         var stations = []; //temp
         for (var i = 0; i < stationData.length; i++) {
           //transforms a JSON object into a Station object
@@ -74,13 +93,10 @@
         for (var i = 0; i < busRouteData.length; i++) {
           var stationsVisited = busRouteData[i].terminais; //Bus Stations in which the Bus Route visits
 
-          if (stationsVisited.length > 1) { // minimum 2 Bus Stations to connections exist
-            var color = "rgba(" +
-              Math.floor(Math.random() * 255) + "," +
-              Math.floor(Math.random() * 200) + "," +
-              Math.floor(Math.random() * 255) +
-              ", 1)";
-
+          if (stationsVisited.length > 1) { // minimum 2 Bus Stations to connections exist           
+                      
+            var color = getRandomColor();      
+            
             for (var j = 0; j < stationsVisited.length - 1; j++) { //-1 to avoid array out of bounds exception
               var source = stationsVisited[j]; //current station
               var target = stationsVisited[j + 1]; //next station 
@@ -101,8 +117,31 @@
 
       LINKS = initLinkData();
 
-      // console.log(stations)
-      // console.log(links);
+      //Optimized random function for repeating less colors
+      function getRandomColor() {                 
+	      const repetitionLimit = 3; 
+        
+        //filter non-overused colors       
+        var nonRepeatedColors = _.filter(colorScheme, function(color) {
+          return color.count <= repetitionLimit;
+        }); 
+        
+        var pickedIndex =  Math.floor(Math.random() * nonRepeatedColors.length);			//pick random index
+
+        //increment color use count
+        for (var i = 0; i <= colorScheme.length; i++) {
+          if (colorScheme[i].cod === nonRepeatedColors[pickedIndex].cod) {
+            colorScheme[i].count += 1;  //increment 
+            break;
+          }
+        }     
+        //if every color is overused, pick default anyway.
+        if ( nonRepeatedColors.length <= 0 ){
+          pickedIndex = Math.floor(Math.random() * colorScheme.length);
+          return colorScheme[pickedIndex].cod;
+        }
+	      return nonRepeatedColors[pickedIndex].cod;
+      }	
 
       //Bus Station Class
       function Station(id, name, x, y) {
