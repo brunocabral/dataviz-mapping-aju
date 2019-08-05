@@ -3,11 +3,11 @@
 The public bus transportation network has a great importance in the routine of the major part of the inhabitants of Aracaju, Sergipe, Brazil. However, the mobility inside the network is cloudy for those whom has no knowledge about the bus lines' routes.
 
 <a name="tryit"></a>
-### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/1d01e7de79fe522c211513df177ec20da3dfffc9/)
+### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/d0a4701ec8a3bdae1190c0dd3f6f84be8783a709/)
 
 ## Folder
 
-The main file `dataviz_mapping_aracaju.html` is in root directory.
+The main file `dataviz_mapping_aracaju.html` is in `root/` directory.
 
 `css/` : css files 
 
