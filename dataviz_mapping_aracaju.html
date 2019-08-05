@@ -244,15 +244,15 @@
         .data(force.nodes())
         .enter().append("circle")
         .attr("r", 10)
-        .call(drag)
+        //.call(drag)
         .on('mouseover', function() {
             d3.select(this)
-            .attr("style", "stroke: #0c2244");
+            .attr("style", "stroke: #0e3063");
         })
         .on('mouseout', function() {
-            d3.select(this).attr("style", "stroke: #050E1C");
+            d3.select(this).attr("style", "stroke: #050e1d");
         })
-        .on('dblclick', showNeighborStations);
+        .on('click', showNeighborStations);
 
       var text = svgContainer.append("g").selectAll("text")
         .data(force.nodes())

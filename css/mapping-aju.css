@@ -28,7 +28,7 @@ path {
 
 circle {
     fill: white;
-    stroke: rgb(9, 25, 51);
+    stroke: #050e1d;
     stroke-width: 7;
     cursor: pointer;
 }
