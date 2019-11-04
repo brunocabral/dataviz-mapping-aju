@@ -11,7 +11,7 @@ This project aimed to bring to surface some information insights about the flow 
 ![alt screenshots](https://raw.githubusercontent.com/brunocabral/dataviz-mapping-aju/master/etc/Screenshots.jpg)
 ## Demo 
 <a name="tryit"></a>
-### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/45a06e08c8bd8dcd8e076b0164914fa14eada363/) 👈
+### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/daa78f38c59cb9d65df8067e6ec67cfbb50bc588/) 👈
 
 
 
