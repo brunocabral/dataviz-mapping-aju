@@ -11,9 +11,10 @@ This project aimed to bring to surface some information insights about the flow 
 ![alt screenshots](https://raw.githubusercontent.com/brunocabral/dataviz-mapping-aju/master/etc/Screenshots.jpg)
 ## Demo 
 <a name="tryit"></a>
-### Try it now [here](https://bl.ocks.org/brunocabral/raw/828ed927fdfe83a6b64dbd9dee34ead4/daa78f38c59cb9d65df8067e6ec67cfbb50bc588/) 👈
+### Try it now [here]() 👈 
+(I'm migrating the url live demo, so is temporarily offline)
 
-
+https://gist.github.com/brunocabral/828ed927fdfe83a6b64dbd9dee34ead4
 
 ## Folder
 
@@ -46,7 +47,7 @@ https://lodash.com/
 
 Credits also to some code snippets found on internet that inspired and were adapted:
    1. [Glowing effect](https://www.visualcinnamon.com/2016/06/glow-filter-d3-visualization.html)
-   2. [ Multiple Links between nodes in force layout](http://bl.ocks.org/thomasdobber/9b78824119136778052f64a967c070e0) 
+   2. [ Multiple Links between nodes in force layout](https://codepen.io/thomasdobber/pen/jWmLbE) 
    3. [Arc Calculation](https://stackoverflow.com/questions/11368339/drawing-multiple-edges-between-two-nodes-with-d3)
 
 ## Planned updates:
