@@ -11,10 +11,7 @@ This project aimed to bring to surface some information insights about the flow 
 ![alt screenshots](https://raw.githubusercontent.com/brunocabral/dataviz-mapping-aju/master/etc/Screenshots.jpg)
 ## Demo 
 <a name="tryit"></a>
-### Try it now [here]() 👈 
-(I'm migrating the url live demo, so is temporarily offline)
-
-https://gist.github.com/brunocabral/828ed927fdfe83a6b64dbd9dee34ead4
+### Try it now [here](https://dataviz-mapping-aju.vercel.app/) 👈 
 
 ## Folder
 
