@@ -23,14 +23,14 @@
     },
     {
       "numeracao": "104",
-      "nome": "Pousada Verde / Maracaju",
+      "nome": "Alto da Boa Vista / Maracaju",
       "tipo": "Linha Urbana",
       "terminais": [],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3014-104-alto-da-boa-vista-maracaju"
     },
     {
       "numeracao": "301",
-      "nome": "Luiz Alves / Zona Oeste",
+      "nome": "Povoado Cabrita / Zona Oeste via Luiz Alves",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
@@ -40,7 +40,7 @@
           "id": 2
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2093-301-luiz-alves-zona-oeste"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2093-301-povoado-cabrita-zona-oeste-via-luiz-alves"
     },
     {
       "numeracao": "302",
@@ -52,6 +52,28 @@
         }
       ],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2094-302-conjunto-jardim-zona-oeste"
+    },
+    {
+      "numeracao": "303",
+      "nome": "Socorro / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3605-303-socorro-zona-oeste"
+    },
+    {
+      "numeracao": "304",
+      "nome": "Santa Cecília / Zona Oeste",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 2
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3283-304-santa-cecilia-zona-oeste"
     },
     {
       "numeracao": "305",
@@ -66,14 +88,14 @@
     },
     {
       "numeracao": "306",
-      "nome": "Guajará / Palestina / Zona Oeste",
+      "nome": "Guajará / Zona Oeste",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 2
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2096-306-guajara-palestina-zona-oeste"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2096-306-guajara-zona-oeste"
     },
     {
       "numeracao": "307",
@@ -155,14 +177,14 @@
     },
     {
       "numeracao": "801",
-      "nome": "Luiz Alves / Campus",
+      "nome": "Luiz Alves / Campus via Rosa Maria",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 1
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2586-801-luiz-alves-campus"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2586-801-luiz-alves-campus-via-rosa-maria"
     },
     {
       "numeracao": "401",
@@ -176,19 +198,8 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2104-401-inacio-barbosa-unit-dia"
     },
     {
-      "numeracao": "403",
-      "nome": "Santa Maria / DIA",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 9
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2112-403-santa-maria-dia-via-prainhaciras"
-    },
-    {
       "numeracao": "405",
-      "nome": "17 de Março / DIA via Aquarius",
+      "nome": "17 de Março / DIA via Marivan",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -206,11 +217,22 @@
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2115-406-aloque-dia"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3568-406b-aloque-dia-b"
+    },
+    {
+      "numeracao": "406B",
+      "nome": "Aloque / DIA via JK",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "#"
     },
     {
       "numeracao": "407",
-      "nome": "Padre Pedro / DIA",
+      "nome": "Residencial Jardim Santa Maria / DIA via Padre Pedro",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -220,7 +242,7 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2116-407-padre-pedro-dia"
     },
     {
-      "numeracao": "408_1",
+      "numeracao": "408",
       "nome": "Paraíso Sul / DIA 01",
       "tipo": "Linha Urbana",
       "terminais": [
@@ -228,29 +250,29 @@
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2760-4081-paraiso-sul-dia-01"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3719-408-paraiso-do-sul-dia"
     },
     {
       "numeracao": "409",
-      "nome": "Riomar / DIA",
+      "nome": "Riomar / DIA via Jardins",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2118-409-riomar-dia"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3602-409-riomar-dia-via-jardins"
     },
     {
       "numeracao": "410",
-      "nome": "Inácio Barbosa / Jardins / DIA",
+      "nome": "Residencial Horto Santa Maria / DIA via Ciras",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2119-410-inacio-barbosa-jardins-dia"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3715-410-residencial-horto-santa-maria-dia-via-ciras"
     },
     {
       "numeracao": "411",
@@ -262,6 +284,17 @@
         }
       ],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2120-411-inacio-barbosa-dia"
+    },
+    {
+      "numeracao": "414B",
+      "nome": "Marivan / DIA via Paraíso do Sul",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3725-414b-marivan-dia-via-paraiso-do-sul"
     },
     {
       "numeracao": "501",
@@ -276,7 +309,7 @@
     },
     {
       "numeracao": "502",
-      "nome": "Santa Tereza / Zona Sul",
+      "nome": "Aeroporto / Zona Sul",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -309,7 +342,7 @@
     },
     {
       "numeracao": "505",
-      "nome": "Santa Maria / Zona Sul",
+      "nome": "Santa Maria / Zona Sul via Prainha (CIRAS)",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -319,10 +352,27 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2126-505-santa-maria-zona-sul-via-prainhaciras"
     },
     {
-      "numeracao": "604",
-      "nome": "Terminal Rodoviário / Maranhão",
+      "numeracao": "602",
+      "nome": "Albano Franco / Mercado via Marcos Freire II",
       "tipo": "Linha Urbana",
       "terminais": [
+        {
+          "id": 4
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3737-602-albano-franco-mercado-via-marcos-freire-ii"
+    },
+    {
+      "numeracao": "604",
+      "nome": "Campus / Mercado via Av. Maranhão",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 1
+        },
         {
           "id": 2
         },
@@ -330,21 +380,7 @@
           "id": 6
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2127-604-terminal-rodoviario-maranhao"
-    },
-    {
-      "numeracao": "605",
-      "nome": "18 do Forte / Centro",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 6
-        },
-        {
-          "id": 8
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2128-605-18-do-forte-centro"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2127-604-campus-mercado-via-av-maranhao"
     },
     {
       "numeracao": "606",
@@ -372,22 +408,40 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2130-607-santos-dumont-mercado"
     },
     {
-      "numeracao": "610",
-      "nome": "São Carlos / Centro",
-      "tipo": "Linha Urbana",
-      "terminais": [],
-      "url": ""
+      "numeracao": "609",
+      "nome": "Atalaia Nova / Mercado",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2082-609-atalaia-nova-mercado"
     },
     {
-      "numeracao": "612",
-      "nome": "São Carlos / Mercado",
+      "numeracao": "610",
+      "nome": "Litoral Norte / Mercado",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 6
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2131-612-sao-carlos-mercado"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2538-610-litoral-norte-mercado"
+    },
+    {
+      "numeracao": "612",
+      "nome": "São Carlos / Mercado via Osvaldo Aranha",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2131-612-sao-carlos-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "613",
@@ -402,35 +456,40 @@
     },
     {
       "numeracao": "614",
-      "nome": "Getimana / Mercado",
+      "nome": "Sanatório / Mercado",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 6
-        },
-        {
-          "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2132-614-sanatorio-centro"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3461-614-sanatorio-mercado"
+    },
+    {
+      "numeracao": "614B",
+      "nome": "Sanatório Mercado B",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 6
+        }
+      ],
+      "url": "#"
     },
     {
       "numeracao": "615",
-      "nome": "Bugio / Centro",
+      "nome": "Bugio / Mercado",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 6
-        },
-        {
-          "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2133-615-bugio-centro"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3321-615-bugio-mercado"
     },
     {
       "numeracao": "701",
-      "nome": "Jardim Atlântico / Centro",
+      "nome": "Jardim Atlântico / Mercado via Shopping Riomar",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -440,11 +499,11 @@
           "id": 10
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2134-701-jardim-atlantico-centro"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2134-701-jardim-atlantico-mercado-via-shopping-riomar"
     },
     {
       "numeracao": "702",
-      "nome": "Augusto Franco / Beira Mar",
+      "nome": "Augusto Franco / Mercado via Beira Mar",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -454,11 +513,11 @@
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2135-702-augusto-franco-beira-mar"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2135-702-augusto-franco-mercado-via-beira-mar"
     },
     {
       "numeracao": "703",
-      "nome": "Augusto Franco / Siqueira Campos",
+      "nome": "Augusto Franco / Centro via Siqueira Campos",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -468,43 +527,29 @@
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/857-703-augusto-franco-siqueira-campos"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/857-703-augusto-franco-centro-via-siqueira-campos"
     },
     {
       "numeracao": "704",
-      "nome": "Conjunto Jardim / Osvaldo Aranha",
+      "nome": "Conjunto Jardim / Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 7
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2136-704-conjunto-jardim-osvaldo-aranha"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2136-704-conjunto-jardim-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "705",
-      "nome": "Parque dos Faróis / Osvaldo Aranha",
+      "nome": "Parque dos Faróis / Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 7
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2137-705-parque-dos-farois-osvaldo-aranha"
-    },
-    {
-      "numeracao": "706",
-      "nome": "Santa Lúcia / Centro via Suíssa",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 8
-        },
-        {
-          "id": 9
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/862-706-santa-lucia-centro-via-suissa"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2137-705-parque-dos-farois-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "707",
@@ -519,7 +564,7 @@
     },
     {
       "numeracao": "708",
-      "nome": "Bairro América / Centro",
+      "nome": "Terminal Rodoviário / Centro via Bairro América",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -533,7 +578,7 @@
     },
     {
       "numeracao": "709",
-      "nome": "DIA / Centro",
+      "nome": "DIA / Centro via Clinica",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -547,18 +592,18 @@
     },
     {
       "numeracao": "710",
-      "nome": "DER / Veneza",
+      "nome": "Veneza / Centro via DER",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2141-710-der-veneza"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2141-710-veneza-centro-via-der"
     },
     {
       "numeracao": "711",
-      "nome": "Sol Nascente / Nova Saneamento",
+      "nome": "DIA / Centro via Castelo Branco",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -568,22 +613,22 @@
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/attachments/article/866/711%20-%20SOL%20NASCENTE%20NOVA%20SANEAMENTO%20I.pdf"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3669-711-dia-centro-via-castelo-branco-suissa"
     },
     {
       "numeracao": "712",
-      "nome": "Quissamã / Mercado",
+      "nome": "Povoado Cardoso / Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 6
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2143-712-povoado-cardoso-mercado"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2143-712-povoado-cardoso-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "713",
-      "nome": "São Cristóvão / Palestina / Osvaldo Aranha",
+      "nome": "São Cristóvão /Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
@@ -593,22 +638,25 @@
           "id": 7
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2144-713-sao-cristovao-palestina-osvaldo-aranha"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2144-713-sao-cristovao-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "714",
-      "nome": "Quissamã / Osvaldo Aranha",
+      "nome": "Povoado Quissamã / Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 7
+        },
+        {
+          "id": 6
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2145-714-povoado-quissama-mercado"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2145-714-povoado-quissama-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "715",
-      "nome": "Tijuquinha / Des. Maynard",
+      "nome": "Tijuquinha / Centro via Des. Maynard",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
@@ -618,22 +666,22 @@
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2146-715-tijuquinha-des-maynard"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2146-715-tijuquinha-centro-via-desembargador-maynard"
     },
     {
       "numeracao": "716",
-      "nome": "Socorro / Br / Osvaldo Aranha",
+      "nome": "Socorro / Centro via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 7
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2147-716-socorro-br-osvaldo-aranha"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2147-716-socorro-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "717",
-      "nome": "Mosqueiro / Centro",
+      "nome": "Mosqueiro / Mercado via Beira Mar",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -643,36 +691,40 @@
           "id": 10
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2148-717-mosqueiro-centro"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2148-717-mosqueiro-mercado-via-beira-mar"
     },
     {
       "numeracao": "718",
-      "nome": "Guajará / Palestina / Osvaldo Aranha",
+      "nome": "Guajará / Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 7
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/871-718-guajara-palestina-osvaldo-aranha"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/871-718-guajara-mercado-via-osvaldo-aranha"
     },
     {
       "numeracao": "719",
-      "nome": "Sobrado / Osvaldo Aranha",
+      "nome": "Sobrado / Mercado via Osvaldo Aranha",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
           "id": 7
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2149-719-sobrado-osvaldo-aranha"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2149-719-sobrado-mercado-via-osvaldo-aranha"
     },
     {
-      "numeracao": "721",
-      "nome": "Castelo Branco / Suissa",
+      "numeracao": "720",
+      "nome": "Unit / Centro via Shopping Jardins",
       "tipo": "Linha Urbana",
-      "terminais": [],
-      "url": ""
+      "terminais": [
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2083-720-unit-centro-via-shopping-jardins"
     },
     {
       "numeracao": "722",
@@ -686,13 +738,6 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2150-722-estiva-mercado"
     },
     {
-      "numeracao": "723",
-      "nome": "Caípe Novo / Centro",
-      "tipo": "Linha Urbana",
-      "terminais": [],
-      "url": ""
-    },
-    {
       "numeracao": "901",
       "nome": "Socorro / Terminal Marcos Freire",
       "tipo": "Linha Metropolitana",
@@ -702,17 +747,6 @@
         }
       ],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2151-901-socorro-terminal-marcos-freire"
-    },
-    {
-      "numeracao": "902",
-      "nome": "São Braz / Terminal Marcos Freire / Maria do Carmo",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 4
-        }
-      ],
-      "url": ""
     },
     {
       "numeracao": "001",
@@ -794,13 +828,6 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2046-005-maracaju-dia"
     },
     {
-      "numeracao": "006",
-      "nome": "Sanatório / DIA",
-      "tipo": "Linha Urbana",
-      "terminais": [],
-      "url": "#"
-    },
-    {
       "numeracao": "007",
       "nome": "Fernando Collor / Atalaia",
       "tipo": "Linha Urbana",
@@ -819,7 +846,7 @@
     },
     {
       "numeracao": "008",
-      "nome": "Santa Tereza / Bairro Industrial",
+      "nome": "Porto Sul / Bairro Industrial",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -849,6 +876,23 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2055-020-piabeta-dia"
     },
     {
+      "numeracao": "021",
+      "nome": "Barra dos Coqueiros / Centro",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 5
+        },
+        {
+          "id": 6
+        },
+        {
+          "id": 8
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2081-021-barra-dos-coqueiros-centro"
+    },
+    {
       "numeracao": "030",
       "nome": "Marcos Freire I e III / DIA",
       "tipo": "Linha Urbana",
@@ -864,7 +908,7 @@
     },
     {
       "numeracao": "031",
-      "nome": "Eduardo Gomes / Desembargador Maynard",
+      "nome": "Eduardo Gomes / Centro via Des. Maynard",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
@@ -874,11 +918,11 @@
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2057-031-eduardo-gomes-des-maynard"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2057-031-eduardo-gomes-centro-via-des-maynard"
     },
     {
       "numeracao": "033",
-      "nome": "Terminal Rodoviário / Desembargador Maynard",
+      "nome": "Terminal Rodoviário / Centro via Des. Maynard",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -888,11 +932,11 @@
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2058-033-terminal-rodoviario-des-maynard"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2058-033-terminal-rodoviario-centro-via-des-maynard"
     },
     {
       "numeracao": "034",
-      "nome": "Terminal Rodoviário / Lourival Batista",
+      "nome": "Terminal Rodoviário / Centro via Lourival Batista",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -906,7 +950,7 @@
     },
     {
       "numeracao": "035",
-      "nome": "Terminal Rodoviário / Nova Saneamento",
+      "nome": "Terminal Rodoviário / Mercado via Nova Saneamento",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -919,36 +963,13 @@
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2059-035-terminal-rodoviario-nova-saneamento"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2059-035-terminal-rodoviario-mercado-via-nova-saneamento"
     },
     {
       "numeracao": "040",
       "nome": "Marcos Freire II / DIA",
       "tipo": "Linha Suburbana",
       "terminais": [
-        {
-          "id": 9
-        },
-        {
-          "id": 2
-        },
-        {
-          "id": 3
-        },
-        {
-          "id": 4
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2063-040-a-marcos-freire-ii-atalaia"
-    },
-    {
-      "numeracao": "040A",
-      "nome": "Marcos Freire II / Atalaia",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 10
-        },
         {
           "id": 9
         },
@@ -996,23 +1017,6 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2065-051-atalaia-centro"
     },
     {
-      "numeracao": "060",
-      "nome": "Padre Pedro / Campus",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 1
-        },
-        {
-          "id": 2
-        },
-        {
-          "id": 9
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2066-060-padre-pedro-campus"
-    },
-    {
       "numeracao": "061",
       "nome": "Marcos Freire / Centro",
       "tipo": "Linha Metropolitana",
@@ -1025,147 +1029,6 @@
         }
       ],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2067-061-marcos-freire-centro"
-    },
-    {
-      "numeracao": "062",
-      "nome": "Piabeta / Centro",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 4
-        },
-        {
-          "id": 6
-        },
-        {
-          "id": 8
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2068-062-piabeta-centro"
-    },
-    {
-      "numeracao": "062B",
-      "nome": "Piabeta / Mercado",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 4
-        },
-        {
-          "id": 6
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2069-062-b-piabeta-mercado"
-    },
-    {
-      "numeracao": "063",
-      "nome": "Albano Franco / Centro / Via Osvaldo Aranha",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 3
-        },
-        {
-          "id": 4
-        },
-        {
-          "id": 7
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2070-063-albano-franco-centro-via-o-aranha"
-    },
-    {
-      "numeracao": "064",
-      "nome": "Albano Franco / Centro / Via Porto Dantas",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 4
-        },
-        {
-          "id": 6
-        },
-        {
-          "id": 8
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2071-064-albano-franco-centro-via-p-dantas"
-    },
-    {
-      "numeracao": "070",
-      "nome": "Santa Maria / Campus",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 1
-        },
-        {
-          "id": 2
-        },
-        {
-          "id": 9
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2079-070-santa-maria-campus-universitario"
-    },
-    {
-      "numeracao": "071",
-      "nome": "Atalaia Nova / Centro",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 5
-        },
-        {
-          "id": 6
-        },
-        {
-          "id": 8
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2080-071-atalaia-nova-centro"
-    },
-    {
-      "numeracao": "072",
-      "nome": "Barra dos Coqueiros / Centro",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 5
-        },
-        {
-          "id": 6
-        },
-        {
-          "id": 8
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2081-072-barra-dos-coqueiros-centro"
-    },
-    {
-      "numeracao": "073",
-      "nome": "Atalaia Nova / Mercado",
-      "tipo": "Linha Metropolitana",
-      "terminais": [
-        {
-          "id": 5
-        },
-        {
-          "id": 6
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2082-073-atalaia-nova-mercado"
-    },
-    {
-      "numeracao": "074",
-      "nome": "Unit / Centro",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 8
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2083-074-unit-centro-via-hospital-primavera"
     },
     {
       "numeracao": "080",
@@ -1183,6 +1046,23 @@
         }
       ],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2084-080-bugio-atalaia"
+    },
+    {
+      "numeracao": "090",
+      "nome": "Campus / DIA",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3716-090-campus-dia"
     },
     {
       "numeracao": "100_CS1",
@@ -1250,41 +1130,41 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2092-2002-circular-industria-e-comercio-02"
     },
     {
-      "numeracao": "402_1",
-      "nome": "Santa Lúcia / DIA 01",
+      "numeracao": "402",
+      "nome": "Sol Nascente / DIA via JK",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2105-4021-santa-lucia-dia-01"
+      "url": "#"
     },
     {
-      "numeracao": "402_2",
-      "nome": "Santa Lúcia / DIA 02",
+      "numeracao": "400_1",
+      "nome": "Circular Santa Lúcia 01",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2106-4022-santa-lucia-dia-02"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3565-4001-circular-santa-lucia-01"
     },
     {
-      "numeracao": "402_3",
-      "nome": "Santa Lúcia / DIA 03",
+      "numeracao": "400_2",
+      "nome": "Circular Santa Lúcia 02",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 9
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2413-4023-santa-lucia-dia-03"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3566-4002-circular-santa-lucia-02"
     },
     {
       "numeracao": "411B",
-      "nome": "Inácio Barbosa / DIA",
+      "nome": "Inácio Barbosa / DIA B",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -1292,6 +1172,17 @@
         }
       ],
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2121-411b-inacio-barbosa-dia-b"
+    },
+    {
+      "numeracao": "414",
+      "nome": "Marivan / DIA",
+      "tipo": "Linha Urbana",
+      "terminais": [
+        {
+          "id": 9
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3001-414-marivan-dia"
     },
     {
       "numeracao": "600 CP1",
@@ -1317,7 +1208,7 @@
     },
     {
       "numeracao": "413",
-      "nome": "Aquarius / DIA",
+      "nome": "Aquarius / DIA via Aeroporto",
       "tipo": "Linha Urbana",
       "terminais": [
         {
@@ -1366,42 +1257,6 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2774-412-circular-dia"
     },
     {
-      "numeracao": "408_2",
-      "nome": "Paraíso Sul / DIA 02",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 9
-        }
-      ],
-      "url": "#"
-    },
-    {
-      "numeracao": "506",
-      "nome": "17 de Março / Zona Sul via Aeroporto",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 10
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2920-506-17-de-marco-zona-sul-via-aeroporto"
-    },
-    {
-      "numeracao": "010",
-      "nome": "DIA / Zona Oeste",
-      "tipo": "Linha Urbana",
-      "terminais": [
-        {
-          "id": 2
-        },
-        {
-          "id": 9
-        }
-      ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2893-010-dia-zona-oeste"
-    },
-    {
       "numeracao": "404",
       "nome": "Caípe Novo / DIA",
       "tipo": "Linha Metropolitana",
@@ -1428,14 +1283,17 @@
     },
     {
       "numeracao": "603",
-      "nome": "Orlinha / Mercado",
+      "nome": "Piabeta / Mercado",
       "tipo": "Linha Urbana",
       "terminais": [
         {
           "id": 6
+        },
+        {
+          "id": 4
         }
       ],
-      "url": "#"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2069-062-b-piabeta-mercado"
     },
     {
       "numeracao": "075",
@@ -1466,7 +1324,7 @@
           "id": 8
         }
       ],
-      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2030-0321-tijuquinha-osvaldo-aranha-01"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2030-0321-tijuquinha-centro-via-osvaldo-aranha-01"
     },
     {
       "numeracao": "032_2",
@@ -1486,14 +1344,25 @@
       "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/2031-0322-tijuquinha-osvaldo-aranha-02"
     },
     {
-      "numeracao": "103",
-      "nome": "Conjunto Maria do Carmo / Maracaju",
+      "numeracao": "903",
+      "nome": "Parque dos Carajás / Terminal Marcos Freite / DIS",
       "tipo": "Linha Metropolitana",
       "terminais": [
         {
-          "id": 3
+          "id": 4
         }
       ],
-      "url": "#"
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3353-903-parque-dos-carajas-terminal-marcos-freire-dis"
+    },
+    {
+      "numeracao": "904",
+      "nome": "Albano Franco / Terminal Marcos Freire",
+      "tipo": "Linha Metropolitana",
+      "terminais": [
+        {
+          "id": 4
+        }
+      ],
+      "url": "http://www.smttaju.com.br/smtt/transporte/itinerario-e-horario-dos-onibus/3383-904-albano-franco-terminal-marcos-freire"
     }
   ]
